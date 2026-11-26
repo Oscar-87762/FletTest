@@ -21,3 +21,4 @@ venv/
 # IDE
 .idea/
 *.code-workspace.bak
+meine_notizen/
