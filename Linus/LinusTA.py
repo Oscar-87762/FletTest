@@ -162,7 +162,7 @@ def main(page: ft.Page) -> None:
         else:
             background, foreground = "#333333", "#FFFFFF"
 
-        def on_click(_: ft.ControlEvent) -> None:
+        def on_click() -> None:
             calculator.press(label)
             display.value = calculator.display
 
@@ -226,4 +226,3 @@ def main(page: ft.Page) -> None:
 
 if __name__ == "__main__":
     ft.run(main)
-7u
