@@ -13,8 +13,7 @@ def ColorSwitcher() -> ft.Container:
     btn_color: str = ft.Colors.WHITE if is_black else ft.Colors.GREEN
     bg_color: str = ft.Colors.WHITE if is_black else ft.Colors.GREEN_900
 
-    def toggle_color(e: ft.ControlEvent) -> None:
-        del e
+    def toggle_color() -> None:
         set_is_black(not is_black)
 
     return ft.Container(
