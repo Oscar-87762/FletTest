@@ -8,7 +8,17 @@
     {
       "id": "1c233288-be3b-410a-8ff6-438f3bdfad00",
       "title": "To Do",
-      "cards": []
+      "cards": [
+        {
+          "id": "d2465b83-0927-499c-862d-6ef11fc92564",
+          "listId": "1c233288-be3b-410a-8ff6-438f3bdfad00",
+          "title": "Oscar P-Seminar",
+          "description": "",
+          "labels": [],
+          "checkboxes": [],
+          "comments": []
+        }
+      ]
     },
     {
       "id": "fa4ad311-ee4e-421c-84c7-4102035e3093",
